@@ -1,0 +1,32 @@
+{
+  "name": "@fredrikvang/cli-confirm-deploy",
+  "version": "0.1.1",
+  "description": "Present a prompt on the command line and ask if you want to deploy. If so, present four digits the user has to type in to proceed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrikvang/cli-confirm-deploy.git"
+  },
+  "keywords": [
+    "cli",
+    "dialog",
+    "confirm"
+  ],
+  "author": "Fredrik Vang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fredrikvang/cli-confirm-deploy/issues"
+  },
+  "homepage": "https://github.com/fredrikvang/cli-confirm-deploy#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  },
+  "devDependencies": {
+  },
+  "bin": {
+    "ask-deploy": "confirm.js"
+  }
+}
